@@ -21,8 +21,6 @@ app.use(
   })
 );
 
-const PORT = process.env.PORT || 3000;
-
 app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
